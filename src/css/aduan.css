@@ -1,0 +1,107 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+/* Custom box-shadow hanya pada kanan, kiri, dan bawah */
+.custom-shadow {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    border: 1px solid #ccc;
+    border-top: none;
+    color: #333;
+    border-radius: 12px;
+}
+
+.custom-shadow:focus{
+    border-color: #777;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cs-shadow{
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.all{
+    background-color: #f9f9f9;
+}
+
+@media (max-width: 768px){
+    .cs-shadow{
+        width: 40rem !important;
+        padding-left: 4rem !important;
+        padding-right: 4rem !important;
+    }
+    .bukti{
+        height: fit-content !important;
+        background-color: white !important;
+    }
+}
+
+@media (max-width: 426px){
+    .cs-shadow{
+        width: 23rem !important;
+        padding-left: 2.5rem !important;
+        padding-right: 2.5rem !important;
+    }
+    .aduan{
+        font-size: 23px !important;
+    }
+    .custom-shadow{
+        height: 2.5rem !important;
+    }
+    .desc{
+        height: 4rem !important;
+    }
+    .bukti{
+        height: fit-content !important;
+        background-color: white !important;
+    }
+    .up{
+        height: 2.7rem !important;
+        width: 9rem !important;
+        padding-top: 0.65rem !important;
+    }
+    .copy{
+        font-size: 15px !important;
+    }
+}
+        
+@media (max-width: 376px){
+    .cs-shadow{
+        width: 19rem !important;
+        padding-left: 1.7rem !important;
+        padding-right: 1.7rem !important;
+    }
+    .up{
+        height: 2rem !important;
+        width: 6rem !important;
+        padding-top: 0.3rem !important;
+        border-radius: 0.7rem !important;
+    }
+    .copy{
+        font-size: 15px !important;
+    }
+}
+        
+@media (max-width: 320px){
+    .cs-shadow{
+        width: 17rem !important;
+        padding-left: 1.3rem !important;
+        padding-right: 1.3rem !important;
+    }
+    .custom-shadow{
+        font-size: 14px;
+    }
+    .identitas{
+        font-size: 10px !important;
+    }
+    .up{
+        height: 2rem !important;
+        width: 6rem !important;
+        padding-top: 0.3rem !important;
+    }
+    .copy{
+        font-size: 14px !important;
+    }
+}
